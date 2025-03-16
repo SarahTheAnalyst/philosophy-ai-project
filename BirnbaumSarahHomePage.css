@@ -1,0 +1,86 @@
+   /* Title Banner */
+   #title-banner {
+    margin-left: 2%;
+    margin-right: 1040px;
+    background-color: #b4bdab;
+   }
+   
+   /* Body Styling */
+    body {
+    background-color: #FFF9FF;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #2F4F4F;
+    margin: 0;
+    padding: 0;
+    }
+
+    h3 {
+        margin-left: 160px;
+    }
+    ul {
+        margin-left: 150px;
+        padding-left: 25px;
+    }
+    #ai-ethics-h2 {
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #c8dbff;
+    }
+    #ai-ethics-p {
+        margin-left: 25px;
+        margin-right: 25px;
+        gap: 5px;
+        background-color: #c8dbff;
+    }
+    #ai-ethics-link {
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: #c8dbff;
+    }
+    .fancy-breaker {
+        text-align: center;
+        font-size: 24px;
+        color: #555;
+        margin: 40px auto;
+    }
+    
+    /* Flexbox container for first image and text*/
+    .first-image-container {
+        display: flex;
+        align-items: center; /* Aligns text and image */
+        justify-content: center; /* Ensures text is to the left of the image */
+        gap: 30px; /* Adds space between image and text */
+        max-width: 99%; /* Prevents stretching too wide out */
+        margin: 1% auto;
+        margin-bottom: 0%;
+    }
+
+    .text-content {
+        flex: 1; /* Allows text to take available space */
+        max-width: 55%;
+    }
+
+    .first-image-container img {
+        max-width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    /* reverse for 3rd img and txt */
+    .reverse-container {
+        display: flex;
+        align-items: center; /* aligns at top */
+        gap: 10px;
+        max-width: 99%;
+        margin: 1% auto;
+        margin-bottom: 0%;
+        padding: 2%;
+    }
+
+    .reverse-container img{
+        max-width: 250px;
+        height: auto;
+        flex-shrink: 0; /* Prevents image from shrinking */
+        align-self: center;
+        margin-right: 5%;
+    }
