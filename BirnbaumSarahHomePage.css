@@ -1,8 +1,7 @@
    /* Title Banner */
    #title-banner {
-    margin-left: 2%;
-    margin-right: 1040px;
-    background-color: #b4bdab;
+    margin-left: 40px;
+    margin-right: 100px;
    }
    
    /* Body Styling */
@@ -14,12 +13,20 @@
     padding: 0;
     }
 
+    /* Home subtitle & ul title*/
     h3 {
-        margin-left: 160px;
+        margin-left: 40px;
+        margin-right: 160px;
+        /*outline: 1px solid purple; --- used to identify error*/
+    }
+    .text-content h2{
+        margin-right:100px;
+        /*outline: 1px dashed blue; --- used to identify error*/
+    
     }
     ul {
-        margin-left: 150px;
-        padding-left: 25px;
+        margin-left: 50px;
+        padding-left: 5px;
     }
     #ai-ethics-h2 {
         margin-left: 25px;
@@ -40,7 +47,7 @@
     .fancy-breaker {
         text-align: center;
         font-size: 24px;
-        color: #555;
+        color: indigo;
         margin: 40px auto;
     }
     
@@ -58,12 +65,14 @@
     .text-content {
         flex: 1; /* Allows text to take available space */
         max-width: 55%;
+        /*outline: solid greenyellow; --- used to identify an error*/
     }
 
-    .first-image-container img {
+    .second-image-container img {
         max-width: 40%;
         height: auto;
         object-fit: contain;
+        outline: solid peru;
     }
     
     /* reverse for 3rd img and txt */
