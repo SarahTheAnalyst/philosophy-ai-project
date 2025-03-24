@@ -1,9 +1,47 @@
    /* Title Banner */
    #title-banner {
-    margin-left: 40px;
+    margin-left: 10px;
     margin-right: 100px;
    }
+   /* Home subtitle & ul title*/
+    h3 {
+        margin-left: 40px;
+        margin-right: 160px;
+        /*outline: 1px solid purple; --- used to identify error*/
+    }
    
+   /* Navigation Styling */
+
+   .navbar ul{
+        list-style-type: none;
+        background-color: darkgrey;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden; /* lets background carry over for horizontal change .navbar li{} */
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .navbar a{
+        color: rgb(11, 17, 22);
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        text-align: center;
+        transition: 2s;    
+    }
+
+    .navbar a:hover{
+        background-color: blanchedalmond;
+        color:rgb(19, 1, 27)
+    }
+
+    .navbar li{
+        margin: 0px;
+    }
+
+
+
    /* Body Styling */
     body {
     background-color: #FFF9FF;
@@ -13,14 +51,9 @@
     padding: 0;
     }
 
-    /* Home subtitle & ul title*/
-    h3 {
-        margin-left: 40px;
-        margin-right: 160px;
-        /*outline: 1px solid purple; --- used to identify error*/
-    }
+    
     .text-content h2{
-        margin-right:100px;
+        margin: 0px;
         /*outline: 1px dashed blue; --- used to identify error*/
     
     }
@@ -64,15 +97,15 @@
 
     .text-content {
         flex: 1; /* Allows text to take available space */
-        max-width: 55%;
+        max-width: 85%;
         /*outline: solid greenyellow; --- used to identify an error*/
     }
 
-    .second-image-container img {
-        max-width: 40%;
+    .first-image-container img {
+        max-width: 50%;
         height: auto;
         object-fit: contain;
-        outline: solid peru;
+        outline: solid rgb(36, 1, 36);
     }
     
     /* reverse for 3rd img and txt */
