@@ -50,7 +50,21 @@
     margin: 0;
     padding: 0;
     }
+    table {
+        width:50%;
+        background-color:aquamarine;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin:30px auto;
 
+    }
+
+    caption {
+        font-size: small;
+        font-weight: 200;
+        margin-bottom:15px;
+        color:grey;
+    }
     
     .text-content h2{
         margin: 0px;
