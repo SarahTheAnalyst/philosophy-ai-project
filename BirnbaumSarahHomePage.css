@@ -65,6 +65,20 @@
         margin-bottom:15px;
         color:grey;
     }
+    th {
+        background-color: slateblue;
+        color:black;
+        border: black;
+        padding:0;
+        text-align: center;
+    }
+    td {
+        background-color: palegreen;
+        color: black;
+        border: slateblue;
+        padding: 0;
+        text-align: center;
+    }
     
     .text-content h2{
         margin: 0px;
