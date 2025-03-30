@@ -62,13 +62,13 @@
 
     caption {
         font-size: small;
-        font-weight: 100;
+        font-weight: 200;
         margin-bottom:15px;
         color:darkolivegreen;
-        text-shadow: 1px 1px 4px rgba(85, 107, 47, 0.5);
+        text-shadow: 5px 5px 8px rgba(85, 107, 47, 0.5);
         border: hidden;
+        }
     
-    }
     th {
         background-color: #f5f5f5;
         color:black;
