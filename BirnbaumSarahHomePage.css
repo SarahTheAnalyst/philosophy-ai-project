@@ -53,7 +53,7 @@
     /* TABLE DETAILS */
     table {
         width:100%;
-        background-color:aquamarine;
+        background: #2f4f4f;
         border: 1px solid #2f4f4f;
         border-collapse: collapse;
         margin-top: 30px;
@@ -82,7 +82,8 @@
         padding: 0;
         text-align: center;
     }
-    
+    /* END TABLE DETAILS */
+
     .text-content h2{
         margin: 0px;
         /*outline: 1px dashed blue; --- used to identify error*/
