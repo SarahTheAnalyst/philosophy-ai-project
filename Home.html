@@ -200,5 +200,59 @@
             </div>
             <!--FANCY BREAKER-->
             <div class="fancy-breaker">✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦</div>
+
+        <!--ok browser, we are about to collect information | HTML FORM 1-->
+            <form method="post" action="https://httpbin.org/post">
+                <!--Name-->
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="fullname"><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <p>Is AI sentient?</p>
+
+                <!-- YES -->
+                <input type="radio" id="yes" name="aiSentient" value="yes">
+                <label for="yes">Yes</label><br>
+
+                <!-- NO -->
+                <input type="radio" id="no" name="aiSentient" value="no">
+                <label for="no">No</label><br>
+
+                <!-- OTHER -->
+                <input type="radio" id="other" name="aiSentient" value="other">
+                <label for="other">Other:</label><br>
+
+                <!-- COMMENT -->
+                <label for="aiComment">Your thoughts:</label><br>
+                <input type="text" id="aiComment" name="aiComment"><br><br>
+
+                <p>Which AI topics interest you?</p>
+
+                <input type="checkbox" id="ethics" name="topics" value="ethics">
+                <label for="ethics">Ethics</label><br>
+
+                <input type="checkbox" id="rights" name="topics" value="rights">
+                <label for="rights">AI Rights</label><br>
+
+                <input type="checkbox" id="mind" name="topics" value="mind">
+                <label for="mind">Theories of Mind</label><br>
+
+                <!-- COMMENT -->
+                <label for="aiInterestComment">Other AI Considerations/Comments:</label><br>
+                <input type="text" id="aiInterestComment" name="aiInterestComment"><br><br>
+
+                <label for="aiOpinion">How do you perceive AI?</label><br>
+                <select id="aiOpinion" name="aiOpinion">
+                <option value="intelligent">A new form of intelligence</option>
+                <option value="tool">Just a tool, don't overthink it</option>
+                <option value="selfAware">On the verge of self-awareness and valid sentience</option>
+                <option value="uncertain">I am not sure yet and skeptical</option>
+                <option value="dangerous">Potential threat to humanity - destroy it</option>
+                <option value="optimistic">A integratable force for good - lucky US</option>
+                </select><br><br>
+            </form>
         </body>
 </html>
