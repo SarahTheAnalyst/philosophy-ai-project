@@ -108,6 +108,11 @@
         border-radius: 6px;
         border: 1px solid #ccc;
       }
+
+      .button-container {
+        display: flex;
+        gap: 10px; /* Adds space between buttons */
+      }
     /* FORM EXPRESSION END -- */      
 
     .text-content h2{
