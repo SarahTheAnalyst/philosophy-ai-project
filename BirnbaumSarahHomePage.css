@@ -82,6 +82,25 @@
     }
     /* END TABLE DETAILS */
 
+    /* FORM EXPRESSION BEGIN*/
+
+    form {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      input[type="text"], input[type="email"], select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+      }
+    /* FORM EXPRESSION END */      
+
     .text-content h2{
         margin: 0px;
         /*outline: 1px dashed blue; --- used to identify error*/
