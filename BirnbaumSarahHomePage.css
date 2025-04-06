@@ -12,33 +12,35 @@
    
    /* Navigation Styling */
 
-   .navbar ul{
-        list-style-type: none;
-        background-color: darkgrey;
-        padding: 0px;
-        margin: 0px;
-        overflow: hidden; /* lets background carry over for horizontal change .navbar li{} */
-        display: flex;
-        justify-content: center;
-    }
- 
-    .navbar a{
-        color: rgb(11, 17, 22);
-        text-decoration: none;
-        padding: 14px 20px;
-        display: block;
-        text-align: center;
-        transition: 2s;    
-    }
+ /* Navigation Styling */
 
-    .navbar a:hover{
-        background-color: blanchedalmond;
-        color:rgb(19, 1, 27)
-    }
+.navbar ul {
+    list-style-type: none;
+    background-color: darkgrey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
 
-    .navbar li{
-        margin: 0px;
-    }
+.navbar a {
+    color: rgb(11, 17, 22);
+    text-decoration: none; /* Ensures links aren't underlined */
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Faster transition */
+}
+
+.navbar a:hover {
+    background-color: blanchedalmond;
+    color: rgb(19, 1, 27);
+}
+
+.navbar li {
+    margin: 0px;
+}
 
 
 
