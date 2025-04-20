@@ -56,6 +56,32 @@
     margin: 0;
     padding: 0;
     }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+      }
+      
+      button:hover {
+        background-color: #45a049;
+      }
+
+      video {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: ruby-base;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+      
+      
     /* TABLE DETAILS UPDATES */
     table {
         width: 95%;
