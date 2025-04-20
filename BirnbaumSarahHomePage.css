@@ -57,6 +57,21 @@
     padding: 0;
     }
 
+    /* HEADER HOVER */
+    #secretBox {
+        width: 250px;
+        height: 100px;
+        background-color: lavender;
+        text-align: center;
+        line-height: 100px;
+        margin: 30px auto;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.3s;
+      }
+      
+
+    /* Date & Time */
     button {
         background-color: #4CAF50;
         color: white;
