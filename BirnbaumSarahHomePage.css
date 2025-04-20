@@ -79,7 +79,7 @@
         width: 100%;
         max-width: 600px;
         height: auto;
-        display: ruby-base;
+        display: block;
         margin: 0 auto;
         border-radius: 10px;
       }
