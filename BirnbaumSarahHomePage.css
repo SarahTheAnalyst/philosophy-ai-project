@@ -59,18 +59,21 @@
 
     button {
         background-color: #4CAF50;
-        color: rgb(241, 95, 229);
+        color: white;
         padding: 10px 20px;
+        font-size: 16px;
         border: none;
-        border-radius: 10px;
-        font-size: 20px;
+        border-radius: 8px;
         cursor: pointer;
-        transition: background-color 0.5s ease;
+        display: inline-block;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
       }
       
       button:hover {
         background-color: #45a049;
       }
+     
 
       video {
         width: 100%;
