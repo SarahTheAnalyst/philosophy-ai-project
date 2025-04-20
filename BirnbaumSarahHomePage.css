@@ -50,7 +50,7 @@
 
    /* Body Styling */
     body {
-    background-color: #FFF9FF;
+    background-color: #f5d7f5;
     font-family:Arial, Helvetica, sans-serif;
     color: #2f4f4f;
     margin: 0;
@@ -59,7 +59,7 @@
 
     button {
         background-color: #4CAF50;
-        color: white;
+        color: rgb(241, 95, 229);
         padding: 10px 20px;
         border: none;
         border-radius: 10px;
