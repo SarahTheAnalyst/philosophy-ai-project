@@ -1,3 +1,4 @@
+//Button Details
 function displayDateTime() {
     document.getElementById("dateTimeOutput").innerText = new Date().toLocaleString();
   }
@@ -16,5 +17,13 @@ function displayDateTime() {
   
   function hideSecret() {
     document.getElementById("secretBox").innerText = "Mouse Over Me";
+  }
+  // Hover Color
+  function changeColor() {
+    document.getElementById("mainHeading").style.color = "indigo";
+  }
+  
+  function resetColor() {
+    document.getElementById("mainHeading").style.color = "black";
   }
   
